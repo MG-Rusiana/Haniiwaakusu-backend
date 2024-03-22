@@ -1,0 +1,6 @@
+<h1>All Questions</h1>
+
+{% for question in all_question %}
+<p>Question Text: {{ question.question_text }}</p>
+<p>Published Date: {{ question.pub_date }}</p>
+{% endfor %}
